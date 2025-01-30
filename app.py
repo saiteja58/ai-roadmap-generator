@@ -106,7 +106,7 @@ def calculate_and_display_results(course):
     display_roadmap(course, stage)
 
 def display_roadmap(course, stage):
-    prompt = f"I have {stage} knowledge on {course} and want to master it. Provide a step-by-step guide with resources."
+    prompt = f"I have {stage} knowledge on {course} and want to master it. Provide a step-by-step guide with resources. use emojis too"
     response = model.generate_content(prompt)
     
     st.write("### AI-Generated Roadmap:")
