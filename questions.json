@@ -1,0 +1,638 @@
+{
+    "Data Science": [
+        {
+            "question": "What is Data Science?",
+            "options": ["Field of study", "Random science", "Math subject", "None of the above"],
+            "answer": "Field of study"
+        },
+        {
+            "question": "Which of the following is the most commonly used programming language for Data Science?",
+            "options": ["Java", "C++", "Python", "Ruby"],
+            "answer": "Python"
+        },
+        {
+            "question": "What is the purpose of data cleaning in Data Science?",
+            "options": ["Remove irrelevant data", "Fill missing values", "Correct errors in data", "All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question": "What does SQL stand for?",
+            "options": ["Structured Query Language", "Simple Query Language", "Structured Quality Language", "Simple Query Logic"],
+            "answer": "Structured Query Language"
+        },
+        {
+            "question": "Which algorithm is commonly used for classification tasks in Data Science?",
+            "options": ["Linear Regression", "Logistic Regression", "K-means clustering", "Principal Component Analysis"],
+            "answer": "Logistic Regression"
+        },
+        {
+            "question": "What is the difference between supervised and unsupervised learning?",
+            "options": ["Supervised learning uses labeled data, unsupervised learning uses unlabeled data", 
+                        "Supervised learning uses unlabeled data, unsupervised learning uses labeled data", 
+                        "Supervised learning is faster than unsupervised learning", 
+                        "Unsupervised learning uses deep learning models"],
+            "answer": "Supervised learning uses labeled data, unsupervised learning uses unlabeled data"
+        },
+        {
+            "question": "Which of the following is a type of supervised learning?",
+            "options": ["Classification", "Clustering", "Association", "Dimensionality reduction"],
+            "answer": "Classification"
+        },
+        {
+            "question": "What does the term 'bias' refer to in machine learning models?",
+            "options": ["Error due to the model's assumptions", "Error due to the training data", "Overfitting the model", "Underfitting the model"],
+            "answer": "Error due to the model's assumptions"
+        },
+        {
+            "question": "Which of these techniques is used to reduce the dimensionality of the data?",
+            "options": ["Linear Regression", "Principal Component Analysis", "Logistic Regression", "K-means clustering"],
+            "answer": "Principal Component Analysis"
+        },
+        {
+            "question": "Which of the following is NOT a step in the Data Science pipeline?",
+            "options": ["Data collection", "Data cleaning", "Data transformation", "Data encryption"],
+            "answer": "Data encryption"
+        },
+        {
+            "question": "What does the confusion matrix measure in classification tasks?",
+            "options": ["Performance of the model", "Predicted values", "Error rate", "All of the above"],
+            "answer": "Performance of the model"
+        },
+        {
+            "question": "Which of the following is an example of an unsupervised learning technique?",
+            "options": ["Decision Trees", "Linear Regression", "K-means clustering", "Support Vector Machines"],
+            "answer": "K-means clustering"
+        },
+        {
+            "question": "What is a feature in the context of machine learning?",
+            "options": ["Input data used for making predictions", "Output variable", "Training data", "Error term"],
+            "answer": "Input data used for making predictions"
+        },
+        {
+            "question": "What is overfitting in machine learning?",
+            "options": ["Model is too simple to capture the underlying patterns", 
+                        "Model performs well on training data but poorly on test data", 
+                        "Model performs well on test data but poorly on training data", 
+                        "None of the above"],
+            "answer": "Model performs well on training data but poorly on test data"
+        },
+        {
+            "question": "Which of the following is a type of data visualization?",
+            "options": ["Scatter plot", "Histogram", "Pie chart", "All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question": "What is the purpose of cross-validation in machine learning?",
+            "options": ["To improve the training data", "To assess the model's performance on unseen data", "To optimize hyperparameters", "To check for overfitting"],
+            "answer": "To assess the model's performance on unseen data"
+        },
+        {
+            "question": "What is the role of the target variable in supervised learning?",
+            "options": ["It is the output variable the model is trying to predict", "It is the input data the model uses", "It is used for data transformation", "It is used to calculate errors"],
+            "answer": "It is the output variable the model is trying to predict"
+        },
+        {
+            "question": "Which of the following is a deep learning framework?",
+            "options": ["TensorFlow", "Scikit-learn", "Pandas", "Matplotlib"],
+            "answer": "TensorFlow"
+        },
+        {
+            "question": "Which of the following is an example of a regression algorithm?",
+            "options": ["Decision Trees", "K-means clustering", "Linear Regression", "K-nearest neighbors"],
+            "answer": "Linear Regression"
+        },
+        {
+            "question": "What does the term 'variance' refer to in machine learning?",
+            "options": ["Model error due to overfitting", "Model error due to underfitting", "Data variability", "All of the above"],
+            "answer": "Model error due to overfitting"
+        },
+        {
+            "question": "Which technique is commonly used for data scaling?",
+            "options": ["Min-Max scaling", "One-Hot encoding", "PCA", "K-means clustering"],
+            "answer": "Min-Max scaling"
+        },
+        {
+            "question": "Which of the following libraries is used for data manipulation in Python?",
+            "options": ["Numpy", "Scikit-learn", "Pandas", "Matplotlib"],
+            "answer": "Pandas"
+        },
+        {
+            "question": "Which of the following is a classification algorithm?",
+            "options": ["K-means clustering", "Naive Bayes", "Linear Regression", "Principal Component Analysis"],
+            "answer": "Naive Bayes"
+        },
+        {
+            "question": "What does PCA (Principal Component Analysis) aim to do?",
+            "options": ["Reduce data dimensionality", "Increase model performance", "Find the best classifier", "Cluster data points"],
+            "answer": "Reduce data dimensionality"
+        },
+        {
+            "question": "Which of the following is an example of a time series analysis technique?",
+            "options": ["Linear Regression", "ARIMA", "K-means clustering", "Support Vector Machine"],
+            "answer": "ARIMA"
+        },
+        {
+            "question": "What is the purpose of a ROC curve in classification tasks?",
+            "options": ["To evaluate model's performance", "To plot accuracy over epochs", "To display model loss", "To measure the confusion matrix"],
+            "answer": "To evaluate model's performance"
+        },
+        {
+            "question": "Which of these is a data preprocessing technique?",
+            "options": ["One-hot encoding", "Normalization", "Feature scaling", "All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question": "Which of the following is NOT a machine learning model?",
+            "options": ["Decision Tree", "Linear Regression", "Deep Neural Network", "Matplotlib"],
+            "answer": "Matplotlib"
+        },
+        {
+            "question": "Which evaluation metric is used for classification problems?",
+            "options": ["Mean Squared Error", "Accuracy", "R-squared", "Root Mean Squared Error"],
+            "answer": "Accuracy"
+        },
+        {
+            "question": "Which of the following can be used to deal with missing data?",
+            "options": ["Imputation", "Normalization", "Feature scaling", "All of the above"],
+            "answer": "Imputation"
+        },
+        {
+            "question": "What is a hyperparameter in machine learning?",
+            "options": ["A parameter that the model learns during training", "A parameter that is set before training", "A parameter used for data preprocessing", "A parameter to improve model performance"],
+            "answer": "A parameter that is set before training"
+        },
+        {
+            "question": "What is feature engineering?",
+            "options": ["Creating new features from raw data", "Improving model accuracy", "Scaling features", "None of the above"],
+            "answer": "Creating new features from raw data"
+        },
+        {
+            "question": "Which of the following is used for ensemble learning?",
+            "options": ["Random Forest", "Support Vector Machines", "K-means clustering", "Principal Component Analysis"],
+            "answer": "Random Forest"
+        },
+        {
+            "question": "Which of the following is a clustering algorithm?",
+            "options": ["K-means clustering", "Linear Regression", "Logistic Regression", "Neural Networks"],
+            "answer": "K-means clustering"
+        },
+        {
+            "question": "What does the term 'feature scaling' refer to?",
+            "options": ["Standardizing the range of independent variables", "Scaling up the model size", "Reducing the size of the dataset", "Changing the output variable"],
+            "answer": "Standardizing the range of independent variables"
+        },
+        {
+            "question": "Which of the following is a classification task in Data Science?",
+            "options": ["Predicting house prices", "Categorizing emails as spam or not", "Forecasting stock prices", "Recommending products"],
+            "answer": "Categorizing emails as spam or not"
+        },
+        {
+            "question": "Which of these libraries is used for data visualization in Python?",
+            "options": ["Matplotlib", "Pandas", "Numpy", "Scikit-learn"],
+            "answer": "Matplotlib"
+        },
+        {
+            "question": "Which method is commonly used to prevent overfitting?",
+            "options": ["Cross-validation", "Random sampling", "Hyperparameter tuning", "All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question": "Which of these algorithms works well with non-linear data?",
+            "options": ["Linear Regression", "Decision Trees", "K-means clustering", "Support Vector Machines"],
+            "answer": "Decision Trees"
+        },
+        {
+            "question": "What is the role of activation functions in neural networks?",
+            "options": ["To normalize the data", "To introduce non-linearity", "To scale the features", "To perform dimensionality reduction"],
+            "answer": "To introduce non-linearity"
+        },
+        {
+            "question": "Which of the following techniques is used for anomaly detection?",
+            "options": ["Isolation Forest", "Random Forest", "Linear Regression", "K-nearest neighbors"],
+            "answer": "Isolation Forest"
+        },
+        {
+            "question": "Which of the following is an example of an unsupervised learning problem?",
+            "options": ["Predicting house prices", "Image classification", "Customer segmentation", "Sentiment analysis"],
+            "answer": "Customer segmentation"
+        },
+        {
+            "question": "What does the term 'ensemble learning' refer to?",
+            "options": ["Combining predictions from multiple models", "Training a single model on the entire dataset", "Using feature selection", "None of the above"],
+            "answer": "Combining predictions from multiple models"
+        },
+        {
+            "question": "Which of the following is a type of time series forecasting model?",
+            "options": ["ARIMA", "Logistic Regression", "K-means clustering", "Random Forest"],
+            "answer": "ARIMA"
+        },
+        {
+            "question": "What is a decision tree used for?",
+            "options": ["Classification", "Regression", "Both", "None of the above"],
+            "answer": "Both"
+        },
+        {
+            "question": "What is the purpose of bagging in ensemble methods?",
+            "options": ["To reduce bias", "To reduce variance", "To increase model complexity", "To handle missing data"],
+            "answer": "To reduce variance"
+        },
+        {
+            "question": "Which of the following is a key feature of deep learning?",
+            "options": ["Requires large amounts of data", "Uses shallow neural networks", "Works well for tabular data", "Can be used for unsupervised learning only"],
+            "answer": "Requires large amounts of data"
+        }
+    ],
+    "Software Development": [
+        {
+            "question": "What is the primary purpose of software development?",
+            "options": ["Creating applications", "Debugging code", "Testing software", "All of the above"],
+            "answer": "Creating applications"
+        },
+        {
+            "question": "Which programming language is commonly used for web development?",
+            "options": ["Python", "Java", "JavaScript", "C++"],
+            "answer": "JavaScript"
+        },
+        {
+            "question": "What does the acronym OOP stand for in software development?",
+            "options": ["Object-Oriented Programming", "Open Operating Platform", "Optimal Operating Procedure", "Overarching Objective Programming"],
+            "answer": "Object-Oriented Programming"
+        },
+        {
+            "question": "Which of the following is NOT a software development lifecycle model?",
+            "options": ["Waterfall", "Agile", "Scrum", "Cloud"],
+            "answer": "Cloud"
+        },
+        {
+            "question": "Which language is used for iOS application development?",
+            "options": ["Swift", "Java", "C#", "Python"],
+            "answer": "Swift"
+        },
+        {
+            "question": "Which of the following is a key feature of the Agile methodology?",
+            "options": ["Iterative development", "Big bang release", "Fixed scope", "Long planning phases"],
+            "answer": "Iterative development"
+        },
+        {
+            "question": "What does the term 'API' stand for in software development?",
+            "options": ["Application Programming Interface", "Automated Programming Interface", "Advanced Program Interaction", "Access Point Interface"],
+            "answer": "Application Programming Interface"
+        },
+        {
+            "question": "Which of the following is a version control system?",
+            "options": ["Git", "Docker", "Node.js", "Jenkins"],
+            "answer": "Git"
+        },
+        {
+            "question": "What is the main purpose of unit testing?",
+            "options": ["To test individual components of software", "To test the entire system", "To ensure code is efficient", "To check for UI bugs"],
+            "answer": "To test individual components of software"
+        },
+        {
+            "question": "Which of the following is NOT a database management system?",
+            "options": ["MySQL", "MongoDB", "Oracle", "React"],
+            "answer": "React"
+        },
+        {
+            "question": "Which tool is commonly used for containerization in software development?",
+            "options": ["Docker", "AWS", "Google Cloud", "Heroku"],
+            "answer": "Docker"
+        },
+        {
+            "question": "What is the purpose of a software framework?",
+            "options": ["To provide a foundation for building applications", "To write code automatically", "To make software less secure", "To store data"],
+            "answer": "To provide a foundation for building applications"
+        },
+        {
+            "question": "Which of the following is NOT an object-oriented programming principle?",
+            "options": ["Encapsulation", "Inheritance", "Polymorphism", "Concurrency"],
+            "answer": "Concurrency"
+        },
+        {
+            "question": "What does the SOLID principle stand for?",
+            "options": ["Single responsibility, Open/closed, Liskov substitution, Interface segregation, Dependency inversion", 
+                        "Simple object language for integration data", "Systematic object layout for integrated design", 
+                        "Structured object labeling for intuitive data"],
+            "answer": "Single responsibility, Open/closed, Liskov substitution, Interface segregation, Dependency inversion"
+        },
+        {
+            "question": "What is a recursive function?",
+            "options": ["A function that calls itself", "A function with multiple parameters", "A function that handles errors", "A function that is executed only once"],
+            "answer": "A function that calls itself"
+        },
+        {
+            "question": "Which of the following is used to ensure software quality?",
+            "options": ["Unit testing", "Code review", "Continuous integration", "All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question": "Which tool is used for automating the software build process?",
+            "options": ["Jenkins", "Slack", "GitHub", "Trello"],
+            "answer": "Jenkins"
+        },
+        {
+            "question": "What is the purpose of a 'mock' object in unit testing?",
+            "options": ["To simulate the behavior of real objects", "To store test data", "To trigger errors", "To perform complex calculations"],
+            "answer": "To simulate the behavior of real objects"
+        },
+        {
+            "question": "Which data structure is commonly used for managing web page elements in a web browser?",
+            "options": ["Array", "Linked List", "Tree", "Graph"],
+            "answer": "Tree"
+        },
+        {
+            "question": "What is an IDE in software development?",
+            "options": ["Integrated Development Environment", "Internet Development Engine", "Internal Design Environment", "Independent Data Engine"],
+            "answer": "Integrated Development Environment"
+        },
+        {
+            "question": "Which of the following is an example of a popular front-end JavaScript framework?",
+            "options": ["Angular", "Spring", "Django", "Express"],
+            "answer": "Angular"
+        },
+        {
+            "question": "Which type of testing focuses on the interaction between multiple software components?",
+            "options": ["Unit testing", "Integration testing", "System testing", "Acceptance testing"],
+            "answer": "Integration testing"
+        },
+        {
+            "question": "Which of the following is a popular programming language for Android development?",
+            "options": ["Kotlin", "Swift", "C++", "Python"],
+            "answer": "Kotlin"
+        },
+        {
+            "question": "Which of the following is an example of a NoSQL database?",
+            "options": ["MongoDB", "MySQL", "PostgreSQL", "SQLite"],
+            "answer": "MongoDB"
+        },
+        {
+            "question": "What does the term 'Agile' refer to in software development?",
+            "options": ["A methodology focusing on iterative and incremental development", 
+                        "A tool for debugging", "A coding language", 
+                        "A technique for testing performance"],
+            "answer": "A methodology focusing on iterative and incremental development"
+        },
+        {
+            "question": "Which version control system is most commonly used for collaborative software development?",
+            "options": ["Git", "Perforce", "Subversion", "Mercurial"],
+            "answer": "Git"
+        },
+        {
+            "question": "What does CI/CD stand for?",
+            "options": ["Continuous Integration and Continuous Deployment", "Common Interface and Code Deployment", "Certified Integration and Code Design", "Continuous Iteration and Development"],
+            "answer": "Continuous Integration and Continuous Deployment"
+        },
+        {
+            "question": "Which of the following is an example of a relational database?",
+            "options": ["MySQL", "MongoDB", "Firebase", "Cassandra"],
+            "answer": "MySQL"
+        },
+        {
+            "question": "Which is NOT a common data type in most programming languages?",
+            "options": ["Integer", "Boolean", "Character", "Link"],
+            "answer": "Link"
+        },
+        {
+            "question": "Which of the following tools is used for container orchestration?",
+            "options": ["Kubernetes", "Docker", "Vagrant", "Jenkins"],
+            "answer": "Kubernetes"
+        },
+        {
+            "question": "What is an algorithm in software development?",
+            "options": ["A sequence of instructions for solving a problem", "A method for designing databases", 
+                        "A tool for testing performance", "A type of programming language"],
+            "answer": "A sequence of instructions for solving a problem"
+        },
+        {
+            "question": "What is the main focus of DevOps in software development?",
+            "options": ["Collaboration between development and operations teams", "Designing user interfaces", 
+                        "Creating software documentation", "Testing software functionalities"],
+            "answer": "Collaboration between development and operations teams"
+        },
+        {
+            "question": "What does TDD stand for in software development?",
+            "options": ["Test-Driven Development", "Tool-Driven Development", "Technology-Driven Design", "Time-Driven Development"],
+            "answer": "Test-Driven Development"
+        },
+        {
+            "question": "What is the purpose of the 'debugging' process?",
+            "options": ["Finding and fixing errors in the code", "Writing new code", "Testing software", "Documenting code"],
+            "answer": "Finding and fixing errors in the code"
+        },
+        {
+            "question": "Which of the following is an example of a back-end programming language?",
+            "options": ["Python", "HTML", "CSS", "JavaScript"],
+            "answer": "Python"
+        },
+        {
+            "question": "What does the term 'refactoring' mean in software development?",
+            "options": ["Rewriting code to improve its structure without changing its functionality", 
+                        "Adding new features to the software", "Fixing bugs", "Deleting unused code"],
+            "answer": "Rewriting code to improve its structure without changing its functionality"
+        },
+        {
+            "question": "Which of the following is an example of an event-driven programming language?",
+            "options": ["JavaScript", "Python", "Java", "Ruby"],
+            "answer": "JavaScript"
+        }
+    ],
+    "AI Engineer": [
+        {
+            "question": "What does AI stand for?",
+            "options": ["Artificial Intelligence", "Automated Integration", "Advanced Internet", "Application Interface"],
+            "answer": "Artificial Intelligence"
+        },
+        {
+            "question": "Which of the following is a popular library for machine learning in Python?",
+            "options": ["TensorFlow", "BeautifulSoup", "Matplotlib", "Django"],
+            "answer": "TensorFlow"
+        },
+        {
+            "question": "Which machine learning technique is used for classifying data?",
+            "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "None of the above"],
+            "answer": "Supervised learning"
+        },
+        {
+            "question": "What is the purpose of training data in machine learning?",
+            "options": ["To teach the model how to predict or classify data", 
+                        "To test the model's accuracy", "To store the model", "To evaluate the model"],
+            "answer": "To teach the model how to predict or classify data"
+        },
+        {
+            "question": "Which of the following is a key aspect of deep learning?",
+            "options": ["Neural networks", "Decision trees", "Clustering", "Regression"],
+            "answer": "Neural networks"
+        },
+        {
+            "question": "What is a neural network in the context of AI?",
+            "options": ["A series of algorithms that attempt to recognize underlying relationships in data", 
+                        "A database system", "A search algorithm", "A decision tree structure"],
+            "answer": "A series of algorithms that attempt to recognize underlying relationships in data"
+        },
+        {
+            "question": "Which of the following is an example of unsupervised learning?",
+            "options": ["K-means clustering", "Logistic regression", "Linear regression", "Support vector machines"],
+            "answer": "K-means clustering"
+        },
+        {
+            "question": "What is reinforcement learning?",
+            "options": ["Learning through interaction with an environment", "Learning from labeled data", 
+                        "Learning by grouping data", "Learning by using feedback from supervisors"],
+            "answer": "Learning through interaction with an environment"
+        },
+        {
+            "question": "What is overfitting in machine learning?",
+            "options": ["When the model learns the details of the training data too well and fails on new data", 
+                        "When the model performs perfectly on the test data", "When the model doesn't learn anything", 
+                        "When the model is too simple to make predictions"],
+            "answer": "When the model learns the details of the training data too well and fails on new data"
+        },
+        {
+            "question": "Which of the following algorithms is used for regression problems?",
+            "options": ["Linear regression", "K-means clustering", "Random Forest", "Support vector machine"],
+            "answer": "Linear regression"
+        },
+        {
+            "question": "Which Python library is commonly used for natural language processing?",
+            "options": ["NLTK", "NumPy", "Pandas", "Scikit-learn"],
+            "answer": "NLTK"
+        },
+        {
+            "question": "What is the purpose of activation functions in neural networks?",
+            "options": ["Introduce non-linearity", "Normalize data", "Reduce the complexity", "Speed up training"],
+            "answer": "Introduce non-linearity"
+        },
+        {
+            "question": "Which of the following is a technique used to prevent overfitting in machine learning?",
+            "options": ["Cross-validation", "Data scaling", "Gradient descent", "Clustering"],
+            "answer": "Cross-validation"
+        },
+        {
+            "question": "What is the difference between deep learning and traditional machine learning?",
+            "options": ["Deep learning involves complex neural networks, while traditional ML uses simpler algorithms", 
+                        "Deep learning uses decision trees, while traditional ML uses neural networks", 
+                        "Deep learning is faster than traditional ML", "There is no difference"],
+            "answer": "Deep learning involves complex neural networks, while traditional ML uses simpler algorithms"
+        },
+        {
+            "question": "What is the purpose of feature engineering in machine learning?",
+            "options": ["To create new features from raw data to improve model performance", 
+                        "To tune hyperparameters", "To split data into training and test sets", 
+                        "To choose the best algorithm for the problem"],
+            "answer": "To create new features from raw data to improve model performance"
+        },
+        {
+            "question": "What is the purpose of the backpropagation algorithm in neural networks?",
+            "options": ["To update the weights of the network during training", "To optimize the model's architecture", 
+                        "To reduce overfitting", "To normalize the data"],
+            "answer": "To update the weights of the network during training"
+        },
+        {
+            "question": "Which algorithm is typically used for classification tasks in machine learning?",
+            "options": ["Support vector machine", "Linear regression", "K-means clustering", "Principal component analysis"],
+            "answer": "Support vector machine"
+        },
+        {
+            "question": "Which of the following is NOT a supervised learning algorithm?",
+            "options": ["K-means clustering", "Logistic regression", "Decision tree", "Naive Bayes"],
+            "answer": "K-means clustering"
+        },
+        {
+            "question": "Which of the following is a common technique to evaluate machine learning models?",
+            "options": ["Confusion matrix", "Heatmap", "Box plot", "Pie chart"],
+            "answer": "Confusion matrix"
+        },
+        {
+            "question": "Which deep learning model is used for processing sequences like text or speech?",
+            "options": ["Recurrent neural network", "Convolutional neural network", "Decision tree", "Support vector machine"],
+            "answer": "Recurrent neural network"
+        },
+        {
+            "question": "What is transfer learning?",
+            "options": ["Using pre-trained models on new tasks", "Transferring data between systems", 
+                        "Learning from labeled data", "Using a simple model for a complex task"],
+            "answer": "Using pre-trained models on new tasks"
+        },
+        {
+            "question": "Which of the following is a popular framework for deep learning?",
+            "options": ["TensorFlow", "Pandas", "NumPy", "OpenCV"],
+            "answer": "TensorFlow"
+        },
+        {
+            "question": "Which method is used to reduce the dimensionality of a dataset?",
+            "options": ["Principal component analysis", "K-means clustering", "Linear regression", "Logistic regression"],
+            "answer": "Principal component analysis"
+        },
+        {
+            "question": "Which of the following best describes unsupervised learning?",
+            "options": ["Learning from unlabeled data", "Learning from labeled data", "Learning with rewards", "Learning by imitation"],
+            "answer": "Learning from unlabeled data"
+        },
+        {
+            "question": "What is the main challenge in training deep learning models?",
+            "options": ["Vanishing gradient problem", "High computational cost", "Lack of labeled data", "Both A and B"],
+            "answer": "Both A and B"
+        },
+        {
+            "question": "What is reinforcement learning primarily used for?",
+            "options": ["Training models to make sequences of decisions", "Classifying data", 
+                        "Clustering data", "Dimensionality reduction"],
+            "answer": "Training models to make sequences of decisions"
+        },
+        {
+            "question": "Which of the following is an application of natural language processing?",
+            "options": ["Text classification", "Speech recognition", "Sentiment analysis", "All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question": "What does the term 'gradient descent' refer to in machine learning?",
+            "options": ["An optimization technique for minimizing the error", 
+                        "A type of neural network", "A classification algorithm", 
+                        "A method for splitting data into training and test sets"],
+            "answer": "An optimization technique for minimizing the error"
+        },
+        {
+            "question": "Which of the following is NOT a deep learning framework?",
+            "options": ["TensorFlow", "Keras", "Scikit-learn", "PyTorch"],
+            "answer": "Scikit-learn"
+        },
+        {
+            "question": "What does an ROC curve help to evaluate?",
+            "options": ["The performance of classification models", "The accuracy of regression models", 
+                        "The complexity of a neural network", "The efficiency of an algorithm"],
+            "answer": "The performance of classification models"
+        },
+        {
+            "question": "Which technique is used to handle missing data in a dataset?",
+            "options": ["Imputation", "Normalization", "Feature selection", "One-hot encoding"],
+            "answer": "Imputation"
+        },
+        {
+            "question": "What is a common activation function used in neural networks?",
+            "options": ["ReLU", "Sigmoid", "Tanh", "All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question": "What is the purpose of dropout in deep learning models?",
+            "options": ["To prevent overfitting", "To speed up training", "To improve accuracy", "To decrease computational complexity"],
+            "answer": "To prevent overfitting"
+        },
+        {
+            "question": "Which of the following is an example of a generative model?",
+            "options": ["Generative adversarial network", "Support vector machine", "Decision tree", "K-nearest neighbors"],
+            "answer": "Generative adversarial network"
+        },
+        {
+            "question": "What is the purpose of a confusion matrix?",
+            "options": ["To evaluate the performance of a classification model", "To reduce dimensionality", 
+                        "To optimize hyperparameters", "To visualize the loss function"],
+            "answer": "To evaluate the performance of a classification model"
+        },
+        {
+            "question": "What is the role of a data scientist in AI projects?",
+            "options": ["Collecting and analyzing data", "Building machine learning models", 
+                        "Cleaning and preparing data", "All of the above"],
+            "answer": "All of the above"
+        }
+    ]
+}
